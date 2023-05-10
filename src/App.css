@@ -1,0 +1,57 @@
+.App {
+  width: 80%;
+  margin: 20px auto;
+}
+
+.t-head {
+  font-weight: bold;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.dlt-btn {
+  background-color: rgb(190, 35, 61);
+  color: white;
+  border: none;
+  border-radius: 17px;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.dlt-btn:hover {
+  background-color: rgb(104, 23, 36);
+}
+
+.pages-container {
+  padding: 20px 0;
+  display: grid;
+  grid-template-columns: 20% 80%;
+  align-items: center;
+}
+
+.pages{
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  list-style-type: none;
+}
+
+.pages li {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid rgb(234, 223, 223);
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.active {
+  background-color: rgb(60, 60, 222);
+  color: white;
+  fill: white;
+}

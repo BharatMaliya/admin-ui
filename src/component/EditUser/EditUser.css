@@ -1,0 +1,26 @@
+.EditUser{display: grid;
+grid-template-columns: repeat(5, 1fr);
+padding: 20px 0;
+gap: 10px;
+margin-right: 15px;
+border-bottom: 1px solid rgb(235, 229, 229);
+}
+
+.EditUser input {
+  padding: 8px;
+  border-radius: 8px;
+}
+
+.EditUser  button{
+  padding: 8px;
+  border-radius: 8px;
+  background-color: green;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  width: 50%;
+}
+
+.EditUser  button:hover{
+  background-color: rgb(14, 104, 14);
+}
